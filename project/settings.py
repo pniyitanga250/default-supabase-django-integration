@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-_58+dvq)@%2pwu1bixl)*fc59&b-=d@2&r$c_h-wb@p)-j+xb+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'default-supabase-django-integration.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
