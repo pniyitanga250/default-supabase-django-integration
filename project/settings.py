@@ -135,5 +135,5 @@ SUPABASE_SERVICE_ROLE_KEY = os.getenv('SUPABASE_SERVICE_ROLE_KEY')
 SUPABASE_BUCKET_NAME = os.getenv('SUPABASE_BUCKET_NAME', 'media')
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://default-supabase-django-integration.onrender.com",
+    "https://*.onrender.com",
 ]
